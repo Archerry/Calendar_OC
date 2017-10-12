@@ -99,6 +99,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CBA532D71F8F4479009BAA6B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CB9F5E671F8DF67E00ACB2D8 /* icon_delete_tcqblb@2x.png */,
+				CB9F5E661F8DF67E00ACB2D8 /* icon_delete_tcqblb@3x.png */,
+				CB9F5E641F8DF67E00ACB2D8 /* icon_jr_jkzx@2x.png */,
+				CB9F5E651F8DF67E00ACB2D8 /* icon_jr_jkzx@3x.png */,
+				CB9F5E621F8DF67E00ACB2D8 /* icon_zjt_xzrq@2x.png */,
+				CB9F5E631F8DF67E00ACB2D8 /* icon_zjt_xzrq@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		CBA532D81F8F448A009BAA6B /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				CBE34C0E1F8CD1F400BF699E /* WMHCalendarView.h */,
+				CBE34C0F1F8CD1F400BF699E /* WMHCalendarView.m */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		CBA532D91F8F4498009BAA6B /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				CB9F5E6E1F8E112E00ACB2D8 /* CalendarDateCell.h */,
+				CB9F5E6F1F8E112E00ACB2D8 /* CalendarDateCell.m */,
+				CB9F5E711F8E113C00ACB2D8 /* WeekDateCell.h */,
+				CB9F5E721F8E113C00ACB2D8 /* WeekDateCell.m */,
+			);
+			path = CellView;
+			sourceTree = "<group>";
+		};
 		CBE34BD01F8CD1BC00BF699E = {
 			isa = PBXGroup;
 			children = (
@@ -122,12 +155,9 @@
 		CBE34BDB1F8CD1BC00BF699E /* WMHCalendar-OC */ = {
 			isa = PBXGroup;
 			children = (
-				CB9F5E671F8DF67E00ACB2D8 /* icon_delete_tcqblb@2x.png */,
-				CB9F5E661F8DF67E00ACB2D8 /* icon_delete_tcqblb@3x.png */,
-				CB9F5E641F8DF67E00ACB2D8 /* icon_jr_jkzx@2x.png */,
-				CB9F5E651F8DF67E00ACB2D8 /* icon_jr_jkzx@3x.png */,
-				CB9F5E621F8DF67E00ACB2D8 /* icon_zjt_xzrq@2x.png */,
-				CB9F5E631F8DF67E00ACB2D8 /* icon_zjt_xzrq@3x.png */,
+				CBA532D91F8F4498009BAA6B /* CellView */,
+				CBA532D81F8F448A009BAA6B /* CalendarView */,
+				CBA532D71F8F4479009BAA6B /* Image */,
 				CBE34BDC1F8CD1BC00BF699E /* AppDelegate.h */,
 				CBE34BDD1F8CD1BC00BF699E /* AppDelegate.m */,
 				CBE34BDF1F8CD1BC00BF699E /* ViewController.h */,
@@ -137,12 +167,6 @@
 				CBE34BE71F8CD1BC00BF699E /* LaunchScreen.storyboard */,
 				CBE34BEA1F8CD1BC00BF699E /* Info.plist */,
 				CBE34BEB1F8CD1BC00BF699E /* main.m */,
-				CBE34C0E1F8CD1F400BF699E /* WMHCalendarView.h */,
-				CBE34C0F1F8CD1F400BF699E /* WMHCalendarView.m */,
-				CB9F5E6E1F8E112E00ACB2D8 /* CalendarDateCell.h */,
-				CB9F5E6F1F8E112E00ACB2D8 /* CalendarDateCell.m */,
-				CB9F5E711F8E113C00ACB2D8 /* WeekDateCell.h */,
-				CB9F5E721F8E113C00ACB2D8 /* WeekDateCell.m */,
 			);
 			path = "WMHCalendar-OC";
 			sourceTree = "<group>";
